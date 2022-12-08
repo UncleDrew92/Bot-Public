@@ -26,7 +26,7 @@ Below is a snapshot of what the data should look like. There will be more inform
 
 ## Sending Data to the Classifier
 
-1. Navigate to the [Sharepoint Folder](https://accessmktg.sharepoint.com/:u:/g/Ec-udWLcBUVLmIpM0OY_VNkB4aBX5TTPKRTEos27EkyP1w?e=cbNEZy) 
+1. Navigate to the [Sharepoint Folder](https://accessmktg.sharepoint.com/:f:/g/EiFoJWM8p0pOtURlzpCKx4oBQllywX6H71KT1yhcmlOneA?e=vROgSG)
 2. Open the Link titled: "Link to Classification Web App"
 3. Upload your csv and hit submit
 4. The data will automatically download in a zip file after it is processed (give it up to a few minutes if the file is large)
