@@ -13,7 +13,6 @@ These instructions will guide you on how to download the data and run the softwa
 
 Requirements to gather the data
 - [Act-On AMC Nurture Login Information](https://www.wrike.com/workspace.htm?acc=3789291&wr=15#folder/515831529/list?filters=&sidePanelItemId=630176163&sortOrder=5&spaceId=534508472&viewId=1183989)
-- [AMC Google Drive Login](https://drive.google.com/drive/)
 
 ## Downloading the Data
 
@@ -25,31 +24,13 @@ Below is a snapshot of what the data should look like. There will be more inform
 
 ![Data Snippet.png](Images/Data_Snippet.png)
 
-## Opening the Software in Google Drive
+## Sending Data to the Classifier
 
 1. Navigate to the [Sharepoint Folder](https://accessmktg.sharepoint.com/:u:/g/Ec-udWLcBUVLmIpM0OY_VNkB4aBX5TTPKRTEos27EkyP1w?e=cbNEZy) 
-2. Download the AMC_Email_Bot_Classifier.ipynb file 
-3. Download the "Inputs" folder
-4. Upload the file AMC_Email_Bot_Classifier.ipynb to Google Drive and open it (it should say Google Colaboratory)
-    - If it does not show up as a Colaboratory file, right-click the file, click open with, and click connect more apps
-![Connect Colaboratory.png](Images/Connect_Colaboratory.png)
-    - Browse for Colaboratory and install it
-    - Right-click the file, click open with, and click Colaboratory
-5. Click the folder icon on the left
-![Colaboratory Folder.png](Images/Colaboratory_Folder.png)
-6. Upload all the files from the "Inputs" folder from Step 1 and the csv file downloaded from Act-On's Data Studio ("sample_data" is irrelevant)
-![Colaboratory File Upload.png](Images/Colaboratory_File_Upload.png)
-7. Open the File_Name.txt inside and update the name of the file to the name of the csv file making sure to include .csv at the end of the file name
-![File Name.png](Images/File_Name.png)
-8. Run the program by hitting the play button at the top left or pressing CTRL + ENTER
-    - Scroll down to the bottom to see the status of the code. It may take minute or so to run
-![Run.png](Images/Run.png)
-9. Wait a minute or two until code is done running
-10. Click anywhere on the page to see the output file in file folders tab
-    1. It may take a few seconds for the files to show up
-![img.png](Images/Output.png)
-11. Download the output files detailed below 
-    1. Hover over the files, hit the ellipses, and click download
+2. Open the Link titled: "Link to Classification Web App"
+3. Upload your csv and hit submit
+4. The data will automatically download in a zip file after it is processed (give it up to a few minutes if the file is large)
+5. If any errors arise, contact andrewd@accessmarketingcompany.com
 
 ### Analyzing the Results
 
@@ -63,10 +44,6 @@ High_Level_Data.csv
 
     1. Produces data for the categories 'Sent' 'Unique Opens' 'Unique Open Rate' 'Unique Clicks' and 'Unique Click Rate'
     2. Separates the data by Message
-
-## Deployment
-
-In Progress: Uploading to Web App for improved user interface
 
 ## Built With
 
